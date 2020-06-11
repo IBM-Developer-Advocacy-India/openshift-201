@@ -43,7 +43,7 @@ When you sign up / log in to IBM Cloud, from the Dashboard you need to navigate 
 
 Next, go to the resource list, from the hamburger menu top left to verify your cluster.
 
-![resource](resource-list.png)
+![resource](images/resource-list.png)
 
 Congratulations! You obtained a Red Hat OpenShift 4.3 cluster. Now you are ready for Lab 2.
 
