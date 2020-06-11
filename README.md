@@ -27,7 +27,7 @@ Each Worker Node has 4 CPU cores with 16GB Ram
 The abbreviated description:
 3 x 4 x 16`
 
-Use this URL to claim the clusters: https://os201ws.mybluemix.net/admin
+Use this URL to claim the clusters: https://os201ws.mybluemix.net/
 
 ![cluster](images/url.png)
 
