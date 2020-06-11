@@ -20,7 +20,7 @@ This part of the workshop is divided in 5 sections:
 
 For the purpose of this workshop organizers pre-provisioned for attendees free Red Hat OpenShift Clusters. Thanks to that you can try and learn on how to use them.
 
-The specification of these Red Hat OpenShift clusters is the following: 
+The specification of these Red Hat OpenShift clusters is the following:
 
 `3 Worker Nodes
 Each Worker Node has 4 CPU cores with 16GB Ram
@@ -39,17 +39,23 @@ You should be given the result page showing the successful assignment.
 
 ![cloud-account](images/cloud.png)
 
-When you sign up / log in to IBM Cloud, from the Dashboard you need to navigate to IBM Org (specified with number 1840867 - IBM).
+When you sign up / log in to IBM Cloud, from the Dashboard you need to navigate to IBM Org, you can see the option above 'Create Resources tab' beside Docs and Support.
 
-Congratulations! You obtained a Red Hat OpenShift cluster. Now you are ready for Lab 2.
+Next, go to the resource list, from the hamburger menu top left to verify your cluster.
+
+![resource](resource-list.png)
+
+Congratulations! You obtained a Red Hat OpenShift 4.3 cluster. Now you are ready for Lab 2.
 
 ## 2. Getting started on Openshift Platform on IBM Cloud
+
+https://cloud.ibm.com/docs/openshift?topic=openshift-deploy_app#app_cli
 
 ![cloud-account](images/installing-oc-cli.gif)
 
 ## 3. Working with projects in Openshift
 
-Create a project on console 
+Create a project on console
 
 ![New project from console](images/new-project-console.gif)
 
@@ -57,7 +63,7 @@ View project from CLI
 
 ![](images/login-view-project-on-cli.gif)
 
-Create a project from CLI 
+Create a project from CLI
 
 ![](images/new-project-cli.gif)
 
@@ -103,3 +109,5 @@ Fork/Clone this example Python repo so that you can edit on the next step https:
 ![](images/s2i-webhook2.gif)
 
 ![](images/s2i-webhook3.gif)
+
+More on Webhooks : https://docs.openshift.com/container-platform/4.1/builds/triggering-builds-build-hooks.html
